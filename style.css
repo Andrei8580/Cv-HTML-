@@ -1,0 +1,39 @@
+body{
+    background-color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    text-align: center;
+    }
+
+.avatar{
+    width: 300px;
+}
+
+.header_title{
+    
+    font-size: 28px;
+}
+.header_subtitle{
+color:brown
+}
+main{
+    border: 1px solid gray;
+    text-align: center;
+}
+
+details ol{
+    margin: 0 auto;
+    max-width: 44px; 
+}
+
+.Skills ol {
+    list-style: none;
+    
+}
+
+.separator{
+    width: 50%;
+    height: 3px;
+    background-color: brown;
+}
