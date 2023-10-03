@@ -1,40 +1,77 @@
-body{
-    background-color: aquamarine;
+body {
+    background-color: rgb(212, 212, 212);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.header{
-    text-align: center;
-    }
 
-.avatar{
+.header {
+    text-align: center;
+}
+
+.avatar {
     width: 300px;
 }
 
-.header_title{
-    
+.header_title {
+
     font-size: 28px;
 }
-.header_subtitle{
-color:brown
+
+.header_subtitle {
+    color: rgb(21, 197, 41)
 }
-main{
-    border: 1px solid gray;
+
+main {
+    border: 3px solid rgb(2, 197, 41);
     text-align: center;
 }
 
-details ol{
+details ol {
     margin: 0 auto;
-    max-width: 44px; 
+    max-width: 44px;
 }
 
 .Skills ol {
     list-style: none;
-    
+
 }
 
-.separator{
+.separator {
     width: 50%;
     height: 3px;
-    background-color: brown;
+    background-color: rgb(2, 197, 41);
 }
-footer {}
+
+.ed_table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.ed_table th,
+.ed_table td {
+    border: solid 1px black;
+    padding: 10px;
+}
+
+.form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.form_control {
+    width: 100%;
+}
+
+.control--text {
+    width: 50%;
+}
+
+footer {
+    height: 100px;
+    text-align: center;
+    background-color: rgb(163, 163, 163);
+}
+
+.contacts_links {
+    text-decoration: none;
+    color: black;
+}
